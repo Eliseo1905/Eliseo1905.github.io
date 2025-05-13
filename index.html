@@ -1,61 +1,156 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="theme-color-e8676b light_skin">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap">
+    <link rel="stylesheet" href="https://rscard.px-lab.com/startuper/wp-content/themes/rs-card/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-  <!-- Image Section -->
-  <div class="text-light">
-    <img src="img/IMG_01.jpg" width="200" height="200" alt="Imagen">
-  </div>
-
-  <!-- Accordion Section -->
-  <div class="accordion accordion-flush" id="accordionFlushExample">
-    <!-- Accordion Item #1 -->
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-          Accordion Item #1
-        </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">HOLa</div>
-      </div>
-    </div>
-
-    <!-- Accordion Item #2 -->
-    <div class="accordion-item" color ="red">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          Accordion Item #2
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">
-          Placeholder content for this accordion, which is intended to demonstrate the class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.
+    <header class="header">
+        <div class="head-bg" style="background-image: url('https://rscard.px-lab.com/startuper/wp-content/uploads/sites/2/2016/02/rs-cover-2-2-1-1.jpg')"></div>
+        <div class="head-bar">
+            <div class="head-bar-inner">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-xs-6">
+                        <a class="logo" href="#">
+                            <span>RS</span>card
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- Accordion Item #3 -->
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-          Accordion Item #3
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">
-          Placeholder content for this accordion, which is intended to demonstrate the class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+    </header>
+    <div class="content">
+        <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <div class="capsule" style="position: relative; background-color: rgba(255, 255, 255, 0.8); border-radius: 10px; padding: 20px; width: 80%; max-width: 600px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                <div class="profile">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="profile-photo" style="border: 5px solid #ffffff; padding: 5px; border-radius: 50%; display: inline-block;">
+                                <img alt="Profile" src="img/IMG_01.jpg" class="img-fluid" style="border-radius: 50%;">
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="profile-info">
+                                <h1 class="profile-title">
+                                    <span></span> Eliseo Benitez
+                                </h1>
+                                <h2 class="profile-position">Tecnico en informática</h2>
+                            </div>
+                            <ul class="profile-list">
+                                <li class="clearfix">
+                                    <strong class="title">Año</strong>
+                                    <span class="cont">19</span>
+                                </li>
+                                <li class="clearfix">
+                                    <strong class="title">Dirección</strong>
+                                    <span class="cont">Curuguaty - Paraguay</span>
+                                </li>
+                                <li class="clearfix">
+                                    <strong class="title">E-mail</strong>
+                                    <span class="cont">benitezdureeliseo@gmail.com</span>
+                                </li>
+                                <li class="clearfix">
+                                    <strong class="title">Telefono</strong>
+                                    <span class="cont">+595 985-133-819</span>
+                                </li>
+                            </ul>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                           Acerca de mis estudios
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"> Estudie en en el colegio Gral José Gervasio  Artigas en en bachillerato Tecnico en Informática,y actualmente estoy  estudiando en la universidad nacional de canindeyu.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Mi experiencia laboral
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Hoy en dia trabajo en un lavadero de autos que es de mi familia  y aparte de eso también tenemos una cancha de volley.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                           Acerca de Mi 
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Soy un joven aprendiz de técnico en informática en la UNICAN  y voy por el segundo año de la carrera , y actualmente vivo con mis padres todavía , mi actividad favorita es ir de pesca con mis padres , también jugar videojuegos como brawl stars y minecraft y  también jugar con mis amigos de la plataforma steam .</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-social">
+                    <ul class="social">
+                        <li>
+                            <a href="https://wa.me/595985133819" target="_blank" style="position: relative; display: inline-block;">
+                                <img src="img/Diseño sin título (6).png" alt="WhatsApp" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                                <span style="display: block; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.1); z-index: 2;"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/yourusername/" target="_blank" style="position: relative; display: inline-block;">
+                                <img src="img/Diseño sin título (5).png" alt="Instagram" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                                <span style="display: block; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.1); z-index: 2;"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@yourusername" target="_blank" style="position: relative; display: inline-block;">
+                                <img src="img/Diseño sin título (4).png" alt="TikTok" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                                <span style="display: block; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.1); z-index: 2;"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://s.team/p/hvjt-cght/NFRWKFWV" target="_blank" style="position: relative; display: inline-block;">
+                                <img src="img/Diseño sin título (3).png" alt="Steam" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                                <span style="display: block; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.1); z-index: 2;"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="section-txt-btn">
+                        <p>Heriberto Benitez  : +595-982-668-061
+                            <br>
+                         Lidia Duré : +595-0984-847-480.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: url('img/img06.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #ffffff; /* Cambiar el color de la letra a blanco */
+        }
+        /* Asegurarse de que todos los textos hereden el color blanco */
+        h1, h2, p, li, a, .accordion-body {
+            color: #c31111;
+        }
+        /* Estilo para los logos de redes sociales */
+        .social img {
+            width: 35px; /* Ajustar el tamaño del logo */
+            height: 35px; /* Ajustar el tamaño del logo */
+            border-radius: 50%; /* Hacer los logos circulares */
+            object-fit: cover; /* Mantener la calidad de la imagen */
+            border: 2px solid #ffffff; /* Opcional: agregar un borde blanco */
+        }
+    </style>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
